@@ -48,4 +48,5 @@ body {
 }
 .btn:hover {
     color: rgb(218, 78, 108);
+    transition: all 1s;
 }
