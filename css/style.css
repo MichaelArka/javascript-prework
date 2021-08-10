@@ -1,0 +1,51 @@
+/* Variables */
+
+/* font-family: 'MonteCarlo', cursive; */
+
+/* Global */
+
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.container {
+    max-width: 1140px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    margin: auto; 
+    background: rgb(95, 95, 177);
+    color: #fff;
+    height: 600px;
+}
+/* Header */
+.header {
+    background: rgb(95, 95, 177);
+    color: #fff;
+    font-size: 40px;
+    font-family: MonteCarlo, cursive;
+}
+/* Buttons */
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: all 1s;
+    border-color: #fff;
+    color: rgb(18, 18, 19);
+    background-image: linear-gradient(25deg, #11e7f5 50%, transparent 50%);
+}
+.btn:hover {
+    color: rgb(218, 78, 108);
+}

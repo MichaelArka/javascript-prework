@@ -18,13 +18,7 @@ function playGame(playerInput){
   console.log('Wylosowana liczba to: ' + randomNumber);
 
   let argComputerMove = getMoveName(randomNumber);
-  if(randomNumber == 1){
-      argComputerMove = 'kamień';
-    } else if (randomNumber == 2){
-      argComputerMove = 'papier';
-    } else {
-      argComputerMove = 'nożyce';
-  }
+
     printMessage('Mój ruch to: ' + argComputerMove);
 
     let argPlayerMove = getMoveName(playerInput);
